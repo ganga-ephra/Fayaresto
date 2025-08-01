@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>faya resto</title>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo"><span>Faya</span>resto</a>
+        <div class="menutoggle" onclick="toggleMenu();"></div>
+        <ul class="navbar">
+            <li><a href="#baniere" onclick="toggleMenu();">Accueil</a></li>
+            <li><a href="#apropos" onclick="toggleMenu();">A propos</a></li>
+            <li><a href="#menu" onclick="toggleMenu();">Menu</a></li>
+            <li><a href="#patisserie" onclick="toggleMenu();">patisserie</a></li>
+            <li><a href="#chef" onclick="toggleMenu();">chef</a></li>
+            <li><a href="#temoignage" onclick="toggleMenu();">temoignage</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+            <a href="#contact" class="btn-reserve" onclick="toggleMenu();">Reservation</a>
+        </ul>
+    </header>
+    <section class="baniere" id="baniere">
+        <div class="contenu">
+            <h2>Découvrez nos spécialités</h2>
+            <p class="gras">Chez FayaResto, chaque plat est préparé avec passion et authenticité.
+                Des viandes tendres aux sauces savoureuses, tout est fait maison avec des ingrédients frais.
+            </p>
+            <a href="#menu" class="btn1">notre menu</a>
+            <a href="#contact" class="btn2">Reservation</a>
+        </div>
+    </section>
+    <section class="apropos" id="apropos">
+        <div class="row">
+            <div class="col50">
+                <h2 class="titre-texte"><span>A</span> propos De Nous</h2>
+                <p class="gras">Chez Faya resto, la cuisine est plus qu’un métier : c’est une passion.
+                    Né de l’envie de partager des plats savoureux dans une ambiance chaleureuse,
+                    notre restaurant vous propose une cuisine [traditionnelle / africaine / moderne / fusion à adapter]
+                    préparée avec des ingrédients frais,
+                    locaux et de qualité.
+                    Chaque jour,
+                    notre équipe s’engage à offrir une expérience culinaire authentique,
+                    conviviale et généreuse. Que ce soit pour un déjeuner rapide, un dîner en famille ou une célébration
+                    entre amis,
+                    Faya resto est l’endroit idéal pour se régaler et passer un bon moment.
+                </p>
+            </div>
+            <div class="col50">
+                <div class="img">
+                    <img src="pexels-valeriya-827513.jpg">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="menu" id="menu">
+        <div class="titre">
+            <h2 class="titre-texte"><span>M</span>enu</h2>
+            <p class="gras">Chez Faya resto, la cuisine est plus qu’un métier : c’est une passion</p>
+        </div>
+        <div class="contenu">
+            <div class="box">
+                <div class="imbox">
+                    <img src="vue-de-dessus-de-la-disposition-du-cadre-alimentaire-traditionnel.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>riz parfumé</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="chad-montano--GFCYhoRe48-unsplash.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>burger montano</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="crayfish-866400.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3> sauce crevette douce tomate</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="ia-3.png" alt="">
+                </div>
+                <div class="text">
+                    <h3>viande marinée </h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="ia-4.png" alt="">
+                </div>
+                <div class="text">
+                    <h3>poulet roti</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="ia-25.png" alt="">
+                </div>
+                <div class="text">
+                    <h3>riz poisson braisé </h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="ia-26.png" alt="">
+                </div>
+                <div class="text">
+                    <h3>riz djem </h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="jenn-kosar-9Er-MNdzrPA-unsplash.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>boulette de viandes</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="meatballs-4511773.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>boulette de viande</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="pexels-brettjordan-842519.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>pizza champignon</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="pexels-dana-tentis-118658-750073.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>burger king frites</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="pexels-rdne-8964279.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>steak de boeuf</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="pngimg.com - barbecue_PNG57.png" alt="">
+                </div>
+                <div class="text">
+                    <h3>poulet pannés</h3>
+                </div>
+            </div>
+        </div>
+        <div class="titre">
+            <a href="#patisserie" class="btn1">Voir plus</a>
+        </div>
+    </section>
+    <section class="menu" id="patisserie">
+        <div class="titre">
+            <h2 class="titre-texte"><span>P</span>atisserie &<span>D</span>essert</h2>
+            <p class="gras">Découvrez notre sélection de douceurs faites maison : gâteaux moelleux, viennoiseries
+                dorées, tartes
+                fruitées et bien plus encore. De quoi ravir les petits comme les grands gourmands </p>
+        </div>
+        <div class="contenu">
+            <div class="box">
+                <div class="imbox">
+                    <img src="pexels-vojtech-okenka-127162-1055272.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>vojtech okenka</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="pngegg-10.png" alt="">
+                </div>
+                <div class="text">
+                    <h3>creme choco</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="pexels-polina-tankilevitch-4110012.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>gateaux de ceremonie</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="pexels-suzyhazelwood-1126359.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>gateau a la fraise</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="allen-rad-JBIK4QZOFfc-unsplash.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>allen rad</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="pexels-pixabay-267308.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>croissant</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="pexels-mick-victor-259435-792406.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>milk victor</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="pexels-eric-mufasa-578798-1414234.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>crème rosia</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="pexels-elli-559179-1854652.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>gateaux choco lait</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="pexels-abhinavcoca-291528.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>gateau miel</h3>
+                </div>
+            </div>
+        </div>
+        <div class="titre">
+            <a href="#menu" class="btn1">Voir plus</a>
+        </div>
+    </section>
+    <section class="chef" id="chef">
+        <div class="titre">
+            <h2 class="titre-texte"><span>C</span>hefs <span>C</span>uisinier</h2>
+            <p class="gras">Nos chefs mettent tous leurs cœurs dans chaque plat. Avec des années d'expérience et une
+                passion
+                inébranlable pour la cuisine, ils transforment des ingrédients simples en véritables œuvres d'art
+                gustatives.
+            </p>
+        </div>
+        <div class="contenu">
+            <div class="box">
+                <div class="imbox">
+                    <img src="ia-12.png" class="op"
+                        alt="">
+                </div>
+                <div class="text">
+                    <h3>Destiné Mariam</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="ia-8.png" class="op" alt="">
+                </div>
+                <div class="text">
+                    <h3>odilan Aron</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="ia-10.png" class="op"
+                        alt="">
+                </div>
+                <div class="text">
+                    <h3>Deric Kerin</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="temoignage" id="temoignage">
+        <div class="titre blanc">
+            <h2 class="titre-texte">Les avis de nos <span>C</span>lients!</h2>
+            <p class="gras">La satisfaction de nos clients est notre priorité. Découvrez ce qu’ils pensent de nos
+                services et pourquoi ils nous font confiance. </p>
+        </div>
+        <div class="contenu">
+            <div class="box">
+                <div class="imbox">
+                    <img src="confident-business-woman-portrait-smiling-face.jpg" alt="">
+                </div>
+                <div class="text">
+                    <p>Franchement, je ne m’attendais pas à une telle qualité. Les plats sont savoureux, bien
+                        présentés, et l’accueil est chaleureux. On sent que tout est fait avec soin, ça donne
+                        envie de revenir encore et encore.”</p>
+                    <h3>Nganga cecilia</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imbox">
+                    <img src="casual-young-african-man-smiling-isolated-white.jpg" alt="">
+                </div>
+                <div class="text">
+                    <p>Je cherchais un bon endroit pour manger vite sans sacrifier le goût, et je l’ai trouvé ici.
+                        Service rapide, portions généreuses, et les produits sont frais. Mention spéciale pour le jus de
+                        bissap, un délice !”</p>
+                    <h3>Nbongui fred</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="young-handsome-man-posing-with-hat.jpg" alt="">
+                </div>
+                <div class="text">
+                    <p>J’ai commandé plusieurs pâtisseries pour un anniversaire et tout le monde m’a demandé où
+                        je les avais trouvées. Fraîches, jolies, et super bonnes ! C’est sûr, je commanderai à
+                        nouveau pour mes prochains événements.”</p>
+                    <h3>Nombo jael</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="titre noir">
+            <h2 class="titre-texte"><span>C</span>ontacts</h2>
+            <p class="gras"> utilisez notre formulaire de contact ci-dessous :</p>
+        </div>
+        <div class="contactform">
+            <h3>Envoyer un message</h3>
+            <form action="https://formspree.io/f/xldllzen" method="POST">
+                <div class="inputboite">
+                    <input type="text" name="nom" placeholder="Nom" required>
+                </div>
+                <div class="inputboite">
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="inputboite">
+                    <textarea name="message" placeholder="Message" required></textarea>
+                </div>
+                <div class="inputboite">
+                    <input type="submit" value="Envoyer">
+                </div>
+            </form>
+
+        </div>
+
+        </div>
+    </section>
+    <div class="copyright">
+        <p class="gras"> copyright © 2025 <a href="https://www.facebook.com/vgraph studio">Vgraph studio</a> design
+            professionnel.Tous droits réservés.</p>
+    </div>
+    <script type="text/javascript">
+        window.addEventListener('scroll', function () {
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+
+        function toggleMenu() {
+            const menutoggle = document.querySelector('.menutoggle');
+            const navbar = document.querySelector('.navbar');
+            menutoggle.classList.toggle('active');
+            navbar.classList.toggle('active');
+        }
+    </script>
+    <script>
+        // 1. ZOOM AU SURVOL POUR TOUTES LES IMAGES DU MENU
+        const images = document.querySelectorAll(".imbox img");
+
+        images.forEach(img => {
+            img.style.transition = "transform 0.8s ease";
+
+            img.addEventListener("mouseenter", () => {
+                img.style.transform = "scale(1.1)";
+            });
+
+            img.addEventListener("mouseleave", () => {
+                img.style.transform = "scale(1)";
+            });
+
+            // 2. Petite vibration au clic (secousse)
+            img.addEventListener("click", () => {
+                img.style.transition = "transform 0.1s";
+                img.style.transform = "translateX(-5px)";
+                setTimeout(() => {
+                    img.style.transform = "translateX(5px)";
+                    setTimeout(() => {
+                        img.style.transform = "translateX(0)";
+                    }, 100);
+                }, 100);
+            });
+        });
+
+        // 3. Apparition fluide des sections quand on scrolle (intersection observer)
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = 1;
+                    entry.target.style.transform = "translateY(0)";
+                    entry.target.style.transition = "all 0.6s ease-out";
+                }
+            });
+        });
+
+        document.querySelectorAll("section").forEach(section => {
+            section.style.opacity = 0;
+            section.style.transform = "translateY(50px)";
+            observer.observe(section);
+        });
+
+        // 4. Animation douce sur les boutons
+        const boutons = document.querySelectorAll("a.btn1, a.btn2");
+
+        boutons.forEach(btn => {
+            btn.style.transition = "transform 0.3s ease";
+            btn.addEventListener("mousedown", () => {
+                btn.style.transform = "scale(0.95)";
+            });
+            btn.addEventListener("mouseup", () => {
+                btn.style.transform = "scale(1)";
+            });
+            btn.addEventListener("mouseleave", () => {
+                btn.style.transform = "scale(1)";
+            });
+        });
+    </script>
+
+    <!--ajout des coockies-->
+    <div id="cookie-banner" class="cookie-banner">
+        <p>Ce site utilise des cookies pour améliorer votre expérience. <a
+                href="https://www.facebook.com/vgraph studio">En savoir plus</a></p>
+        <div class="cookie-buttons">
+            <button onclick="acceptCookies()">Accepter</button>
+            <button onclick="rejectCookies()">Refuser</button>
+        </div>
+    </div>
+    <script>
+        function setCookie(name, value, days) {
+            const d = new Date();
+            d.setTime(d.getTime() + (days * 24 * 60 * 60 * 1000));
+            const expires = "expires=" + d.toUTCString();
+            document.cookie = name + "=" + value + ";" + expires + ";path=/";
+        }
+
+        function getCookie(name) {
+            const cookies = document.cookie.split(';');
+            for (let i = 0; i < cookies.length; i++) {
+                let c = cookies[i].trim();
+                if (c.indexOf(name + "=") === 0) {
+                    return c.substring(name.length + 1, c.length);
+                }
+            }
+            return "";
+        }
+
+        function acceptCookies() {
+            setCookie("cookiesAccepted", "yes", 30);
+            document.getElementById("cookie-banner").style.display = "none";
+        }
+
+        function rejectCookies() {
+            setCookie("cookiesAccepted", "no", 30);
+            document.getElementById("cookie-banner").style.display = "none";
+        }
+
+        window.onload = function () {
+            if (!getCookie("cookiesAccepted")) {
+                document.getElementById("cookie-banner").style.display = "flex";
+            }
+        };
+    </script>
+
+</body>
+
+</html>
