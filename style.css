@@ -417,6 +417,17 @@ header.sticky{
   background-color: #f44336;
   color: white;
 }
+/*style google maps*/
+.map {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.map h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
 
 
 @media (max-width:991px) {
